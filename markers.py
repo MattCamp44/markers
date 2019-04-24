@@ -15,7 +15,9 @@ else:
     # might be around one day
     from urllib import urlopen
 
-
+#Vai all'IP che ti dice l'applicazione IPcamera, clicca il tasto Javascript, clicca
+#sull'immagine col tasto destro, scegli "copia indirizzo" o roba del genere, copialo
+#nel browser e copia lo stesso url QUI SOTTO
 url='http://192.168.1.9:8080/shot.jpg?rnd=198779'
 print('Press "q" to quit')
 while True:
